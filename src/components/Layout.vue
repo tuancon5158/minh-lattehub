@@ -72,33 +72,43 @@
     <div class="body">
         <Banner/>
         <CollectionList/>
+        <div class="title"><h2 >Best Selling</h2><button>VIEW MORE</button> </div>
+        <BestSelling/>
+        <Banner2/>
     </div>
     <div class="footer"></div>
   </div>
 </template>
 <script>
 import Banner from './Banner.vue'
+import Banner2 from './Banner2.vue'
 import CollectionList from './CollectionList.vue'
+import BestSelling from './BestSelling.vue'
 export default {
     components: {
     Banner,
-    CollectionList
+    Banner2,
+    CollectionList,
+    BestSelling
+
   }
 };
 
 </script>
 <style scoped lang='css'>
 .row-header {
-    padding-left: 25%;
+  padding-left: 25%;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .navbar {
-    padding-left: 25%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
   overflow: hidden;
   background-color: white;
 }
@@ -157,5 +167,15 @@ export default {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.title{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  background-color: dodgerblue;
+  color: white;
+  width: 12%;
+  
 }
 </style>
