@@ -1,6 +1,33 @@
 <template>
     <div class="collection">
-        <BestSellingItem/>
+        
+        <div class="scroll">
+        <div class="row">
+            <div class="column">
+                <BestSellingItem/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem/>
+                
+            </div>
+            
+        </div>
+        
+    
+    </div>
     </div>
 </template>
 <script>
@@ -12,22 +39,33 @@ export default {
 }
 </script>
 <style scoped lang='css'> 
-.collection{
-    display: flex;
-  flex-direction: row;
+.scroll {
+  margin-top: 2%;
+  width: 60%;
+  height: 23pc;
+  overflow: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+.row {
   flex-wrap: wrap;
-  justify-content: space-around;
-  height: 1%
+}
+.column {
+  display: inline-block;
+  padding-left: 2pc;
+  flex: 75%;
+  max-width: 25%;
+  
 }
 @media (max-width: 800px) {
-  .collection {
-    flex: 100%;
-    max-width: 100%;
+  .column {
+    flex: 75%;
+    max-width: 25%;
   }
 }
 
 @media (max-width: 600px) {
-  .collection {
+  .column {
     flex: 100%;
     max-width: 100%;
   }
