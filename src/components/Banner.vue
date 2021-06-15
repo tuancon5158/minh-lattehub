@@ -26,6 +26,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
    color: ghostwhite;
+   filter: grayscale(50%);
 }
 p{
     font-size: 400%;

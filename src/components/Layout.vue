@@ -75,8 +75,18 @@
         <div class="title"><h2 >Best Selling</h2><button>VIEW MORE</button> </div>
         <BestSelling/>
         <Banner2/>
+        <DressBanner/>
+        <!-- <div class="title"><h2 >Look we love</h2><button>VIEW MORE</button> </div>
+        <BestSelling/> -->
+        <!-- <div class="title"><h2>Store best sellers</h2></div>
+        <BestSelling/> -->
+        <div class="title"><h2>Recently viewed & featured recommendations</h2></div>
+        <BestSelling/>
+        <SizeBanner/>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <Footer/>
+    </div>
   </div>
 </template>
 <script>
@@ -84,13 +94,18 @@ import Banner from './Banner.vue'
 import Banner2 from './Banner2.vue'
 import CollectionList from './CollectionList.vue'
 import BestSelling from './BestSelling.vue'
+import DressBanner from './DressBanner.vue'
+import SizeBanner from './SizeBanner.vue'
+import Footer from './Footer.vue'
 export default {
     components: {
     Banner,
     Banner2,
     CollectionList,
-    BestSelling
-
+    BestSelling,
+    DressBanner,
+    SizeBanner,
+    Footer
   }
 };
 
@@ -98,7 +113,6 @@ export default {
 <style scoped lang='css'>
 .row-header {
   padding-left: 25%;
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -110,6 +124,7 @@ export default {
   flex-wrap: wrap;
   justify-content: space-around;
   overflow: hidden;
+  
   background-color: white;
 }
 
@@ -173,9 +188,24 @@ export default {
   justify-content: space-around;
 }
 button{
-  background-color: dodgerblue;
+  background-color: #0654f3;
   color: white;
   width: 12%;
-  
+  border: none;
+}
+@media (max-width: 800px) {
+  .navbar{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+   .navbar{
+     opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
 }
 </style>

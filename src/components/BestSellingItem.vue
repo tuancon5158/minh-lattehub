@@ -13,9 +13,11 @@ export default {};
 </script>
 <style scoped lang='css'>
 button{
-  background-color: dodgerblue;
+  background-color: #0654f3;
   color: white;
-  width: 12%;
+  width: 95%;
+  border: none;
+  padding: 2%;
 }
 .item{
   display: flex;
