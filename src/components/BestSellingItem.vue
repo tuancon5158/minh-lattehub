@@ -16,6 +16,7 @@ button{
   background-color: #0654f3;
   color: white;
   width: 95%;
+  
   border: none;
   padding: 2%;
 }
@@ -27,6 +28,7 @@ button{
   height: 20%;
 }
 .item img{
-    height: 5%;
+    height: 15pc;
+    width: 15pc;
 }
 </style>

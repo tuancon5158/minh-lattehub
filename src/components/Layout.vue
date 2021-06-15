@@ -1,5 +1,6 @@
 <template>
   <div>
+    <center>
     <div class="header">
       <div class="row-header">
         <a href="#" style="flex-grow: 0.05"><img src="../assets/logo.png" /></a>
@@ -83,10 +84,12 @@
         <div class="title"><h2>Recently viewed & featured recommendations</h2></div>
         <BestSelling/>
         <SizeBanner/>
+        <Review/>
     </div>
     <div class="footer">
         <Footer/>
     </div>
+    </center>
   </div>
 </template>
 <script>
@@ -97,6 +100,7 @@ import BestSelling from './BestSelling.vue'
 import DressBanner from './DressBanner.vue'
 import SizeBanner from './SizeBanner.vue'
 import Footer from './Footer.vue'
+import Review from './Review.vue'
 export default {
     components: {
     Banner,
@@ -105,7 +109,8 @@ export default {
     BestSelling,
     DressBanner,
     SizeBanner,
-    Footer
+    Footer,
+    Review
   }
 };
 

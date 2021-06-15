@@ -47,7 +47,10 @@ export default {};
   max-width: 25%;
   margin: 2%;
   background-color: lavender;
-  align-items: baseline;
+  justify-items: center;
+}
+.column img{
+vertical-align: middle;
 }
 .column div{
     flex-direction: row;
