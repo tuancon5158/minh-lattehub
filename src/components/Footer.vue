@@ -54,6 +54,13 @@ export default {
 .column div{
     text-align: left;
 }
+.column a{
+     color: black;
+    text-decoration: none;
+}
+.column a:hover{
+    text-decoration: underline;
+}
 .contract{
    
     visibility: hidden;

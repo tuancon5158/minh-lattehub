@@ -63,6 +63,9 @@ export default {};
   flex-wrap: wrap;
    align-items: center;
   justify-items: center;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .column {
   flex: 100%;
@@ -87,7 +90,7 @@ export default {};
 }
 .column figure img{
     transform: scale(1);
-    transition: 0.2s all ease-in-out;
+    transition: 1.5s all ease-in-out;
 }
 .column figure:hover img{
     transform: scale(1.2);
@@ -98,7 +101,8 @@ export default {};
   width: 25%;
   padding: 2%;
   border: none;
-  font-size: 90%;
+  font-size: 95%;
+  font-weight: bold;
 }
 @media (max-width: 800px) {
   .column {

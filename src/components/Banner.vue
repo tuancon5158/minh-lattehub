@@ -16,6 +16,7 @@ export default {
 <style scoped lang='css'>
 .banner{
     padding: 10%;
+    margin-top: 7%;
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
@@ -26,7 +27,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
    color: ghostwhite;
-   filter: grayscale(50%);
+   filter: contrast(90%);
 }
 p{
     font-size: 400%;

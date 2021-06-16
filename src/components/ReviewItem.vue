@@ -19,15 +19,19 @@
     </div>
     <br />
     <div class="svg">
-      <svg
+     <div> <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        style="color: green;"
       >
         <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
-      </svg>
-      Reply from monolom September 4
+      </svg></div>
+      <div>Reply from monolom</div><div> September 4</div>
+    </div>
+    <div class="button">
+      <button>Read more</button>
     </div>
   </div>
 </template>
@@ -38,7 +42,7 @@ export default {};
 .all {
   text-align: left;
   background-color: #f8f9fa;
-  width: 10pc;
+  width: 90%;
   margin-bottom: 20%;
 }
 .name {
@@ -58,5 +62,19 @@ export default {};
 .c {
   font-size: 80%;
   padding-left: 2%;
+}
+.svg{
+  border-left: green 0.2pc solid;
+}
+.svg svg{
+  color: green;
+  float: left;
+}
+.button button{
+  color: green;
+  border: none;
+  background-color: #f8f9fa;
+  padding: 20%;
+  width: 100%;
 }
 </style>

@@ -4,23 +4,35 @@
         <div class="scroll">
         <div class="row">
             <div class="column">
-                <BestSellingItem/>
+                <BestSellingItem2/>
                 
             </div>
             <div class="column">
-                <BestSellingItem/>
+                <BestSellingItem2/>
                 
             </div>
             <div class="column">
-                <BestSellingItem/>
+                <BestSellingItem2/>
                 
             </div>
             <div class="column">
-                <BestSellingItem/>
+                <BestSellingItem2/>
                 
             </div>
             <div class="column">
-                <BestSellingItem/>
+                <BestSellingItem2/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem2/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem2/>
+                
+            </div>
+            <div class="column">
+                <BestSellingItem2/>
                 
             </div>
             
@@ -31,10 +43,10 @@
     </div>
 </template>
 <script>
-import BestSellingItem from './BestSellingItem.vue'
+import BestSellingItem2 from './BestSellingItem2.vue'
 export default {
     components:{
-        BestSellingItem,
+        BestSellingItem2,
     }
 }
 </script>
@@ -58,9 +70,9 @@ export default {
   background: #555; 
 }
 .scroll {
-  margin-top: 0pc;
+  margin-top: 2%;
   width: 60%;
-  height: 23pc;
+  height: 15pc;
   overflow: auto;
   text-align: center;
   white-space: nowrap;

@@ -3,26 +3,26 @@
     <div class="row">
       <div class="column">
         <div>
-           <p> <img
+           <div> <img
             src="https://minio.lattehub.com/img/200/200/resize/60bdc849e0db61849045908f/2021/06/07/lattehub-image-60bde469347032ca8823a217.png"
-          />Standard Shipping Worldwide</p>
+          /><h4></h4><i>Standard Shipping Worldwide</i></div>
         </div>
       </div>
       <div class="column">
         <div>
-           <p> <img
+           <div> <img
             src="https://minio.lattehub.com/img/200/200/resize/60bdc849e0db61849045908f/2021/06/07/lattehub-image-60bde47252141727c5ea21cb.jpg"
-          />
-          Free Return Worldwide On Orders Over $30</p>
+          /><h4></h4>
+          <i>Free Return Worldwide On Orders Over $30</i></div>
         </div>
       </div>
       <div class="column">
         <div>
         
-          <h4>REMEMBER TO DRINK</h4>
-          <p><img
+         
+          <div><img
             src="https://minio.lattehub.com/img/200/200/resize/60bdc849e0db61849045908f/2021/06/07/lattehub-image-60bde47b09847c6d07ebc13c.png"
-          />100% Safe & Sercure Checkout</p>
+          /><h4>REMEMBER TO DRINK</h4> <i>100% Safe & Sercure Checkout</i></div>
         </div>
       </div>
     </div>
@@ -37,26 +37,34 @@ export default {};
   padding-left: 15%;
   padding-right: 1%;
   padding-bottom: 1%;
+  height: 15pc;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
+   margin-bottom: 3pc;
 }
 .column {
   flex: 75%;
   max-width: 25%;
+  height: 7pc;
   margin: 2%;
+  margin-bottom: 3pc;
   background-color: lavender;
-  justify-items: center;
 }
 .column img{
-vertical-align: middle;
+float: left;
+align-self: center;
+margin-left: 1pc;
+margin-top: 1pc;
+margin-bottom: 1pc;
 }
 .column div{
-    flex-direction: row;
+    flex-direction: column;
 }
-.column p {
-  text-align: center;
+.column i{
+   width: 100%;
+   text-align: center;
 }
 .column h4 {
   text-align: center;

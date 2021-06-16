@@ -75,6 +75,9 @@ h2 {
 a {
   font-size: 100%;
   font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-top: 10pc;
 }
 @media (max-width: 800px) {
   .collection {

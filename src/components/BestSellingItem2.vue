@@ -6,7 +6,7 @@
     />
     <p>Plaid Long Sleeve Loose Crew Neck</p>
     <p class="price">$19.99</p>
-    <button>Add to Cart</button>
+    <p><button>Add to Cart</button></p>
   </div>
 </template>
 <script>
@@ -15,31 +15,28 @@ export default {};
 <style scoped lang='css'>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 250px;
+  max-width: 10pc;
   margin: auto;
-  margin-top: 0pc;
-  padding-top:0pc ;
-  text-align: left;
+  text-align: center;
   font-family: arial;
-  height: 20pc;
+  height: 12pc;
 }
 .card:hover button{
-visibility:visible;
+  visibility:visible;
 }
 .card img{
-  height: 15pc;
+  height: 7pc;
+  width: 7pc;
 }
 .card p{
-  text-align: left;
-  padding-left: 1pc;
-  padding-right: 1pc;
+  text-align: center;
   overflow: auto;
   overflow-x: hidden;
   font-size: 90%;
 }
 .price {
-  text-align: left;
-  color: #0d9ef2;
+  text-align: center;
+  color: grey;
   font-size: 22px;
 }
 

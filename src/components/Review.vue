@@ -59,6 +59,7 @@ ReviewItem
 };
 </script>
 <style scoped lang='css'>
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -94,9 +95,27 @@ ReviewItem
   margin-top: 2%;
   width: 50%;
   height: 20pc;
-  overflow-y: scroll;
+  overflow-y: visible;
   overflow-x: hidden;
   text-align: center;
+}
+::-webkit-scrollbar {
+  width: 0.2pc;
+}
+
+
+::-webkit-scrollbar-track {
+  background: grey; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 @media (max-width: 800px) {
   .title {
@@ -108,6 +127,10 @@ ReviewItem
     flex: 100%;
     max-width: 100%;
  }
+ .review{
+  margin-top: 20pc;
+  margin-bottom: 15pc;
+}
 }
 
 
@@ -122,5 +145,9 @@ ReviewItem
     flex: 100%;
     max-width: 100%;
  }
+ .review{
+  margin-top: 20pc;
+  margin-bottom: 15pc;
+}
 }
 </style>
