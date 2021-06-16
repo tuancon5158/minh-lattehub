@@ -11,7 +11,7 @@
       <hr style="width:100%;text-align:left;margin-left:0;color: #ddd">
       <div class="navbar">
         <div class="dropdown">
-          <button class="dropbtn">
+        <button class="dropbtn">
             Beauty 
             <i class="fa-caret-down"></i>
           </button>

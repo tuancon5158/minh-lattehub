@@ -117,6 +117,10 @@ ReviewItem
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+.review{
+  margin-top: 1pc;
+  margin-bottom: 10pc;
+}
 @media (max-width: 800px) {
   .title {
     padding-top: 1%;
