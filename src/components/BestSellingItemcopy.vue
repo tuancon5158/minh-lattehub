@@ -1,12 +1,14 @@
 <template>
   <div class="card">
-    <a href="#"><img
-      src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f56ac749aaeacb476f1.jpeg"
-      style="width: 100%"
-    />
-    <p>Plaid Long Sleeve Loose Crew Neck</p>
-    <p class="price">$19.99</p>
-    <button>Add to Cart</button></a>
+    <a href="#"
+      ><img
+        src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f567c2ee6ea1212709c.jpeg"
+        style="width: 100%"
+      />
+      <p>Vintage Women Solid 3/4 Sleeve Loose Maxi Dress For Women</p>
+      <p class="price">$19.99</p>
+      <button>Add to Cart</button></a
+    >
   </div>
 </template>
 <script>
@@ -18,22 +20,22 @@ export default {};
   max-width: 250px;
   margin: auto;
   margin-top: 0pc;
-  padding-top:0pc ;
+  padding-top: 0pc;
   text-align: left;
   font-family: arial;
   height: 20pc;
 }
-.card:hover button{
-visibility:visible;
+.card:hover button {
+  visibility: visible;
 }
-.card a{
-   color: black;
-    text-decoration: none;
+.card a {
+  color: black;
+  text-decoration: none;
 }
-.card img{
+.card img {
   height: 15pc;
 }
-.card p{
+.card p {
   text-align: left;
   padding-left: 1pc;
   padding-right: 1pc;

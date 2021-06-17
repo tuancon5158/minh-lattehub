@@ -1,19 +1,19 @@
 <template>
-  <div>
+  <div class="center">
     <center>
     <div class="header">
       <div class="row-header">
         <a href="#" style="flex-grow: 0.05"><img src="../assets/logo.png" /></a>
        <div><input class="search" type="text" placeholder="What are you searching for?" style="flex-grow: 0.2 ">
        <button>Cancel</button></div>
-        <a href="#" style="flex-grow: 0.7"><img src="../assets/icon-bill.png" /></a>
+        <a href="#" style="flex-grow: 0.9; padding-top:0.5%"><img src="../assets/icon-bill.png" /></a>
       </div>
-      <hr style="width:100%;text-align:left;margin-left:0;color: #ddd">
+      <hr >
       <div class="navbar">
         <div class="dropdown">
-        <button class="dropbtn">
+        <button class="dropbtn"><a href="#">
             Beauty 
-            <i class="fa-caret-down"></i>
+            <i class="fa-caret-down"></i></a>
           </button>
           <div class="dropdown-content">
             <a href="#">Hair Care</a>
@@ -21,9 +21,9 @@
           </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">
+          <button class="dropbtn"><a href="#">
             Women's Accessories 
-            <i class="fa-caret-down"></i>
+            <i class="fa-caret-down"></i></a>
           </button>
           <div class="dropdown-content">
             <a href="#"> Jewelry & Accessories </a>
@@ -33,18 +33,18 @@
           </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">
+          <button class="dropbtn"><a href="#">
             Health Care 
-            <i class="fa-caret-down"></i>
+            <i class="fa-caret-down"></i></a>
           </button>
           <div class="dropdown-content">
             <a href="#"> Health</a>
           </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn">
+          <button class="dropbtn"><a href="#">
             Life Styles 
-            <i class="fa-caret-down"></i>
+            <i class="fa-caret-down"></i></a>
           </button>
           <div class="dropdown-content">
             <a href="#">Home Improvement</a>
@@ -76,13 +76,13 @@
         <CollectionList/>
         <br>
         <br>
-        <div class="title"><h2 >Best Selling</h2><button>VIEW MORE</button> </div>
+        <div class="title"><h2 >Best Selling</h2><button><a href="#">VIEW MORE</a></button> </div>
         <BestSelling/>
         <Banner2/>
         <DressBanner/>
         <br>
         <br>
-        <div class="title"><h2 >Look we love</h2><button>VIEW MORE</button> </div>
+        <div class="title"><h2 >Look we love</h2><button><a href="#">VIEW MORE</a></button> </div>
         <BestSelling/>
         <div class="title"><h2>Store best sellers</h2></div>
         <BestSelling2/>
@@ -123,6 +123,17 @@ export default {
 
 </script>
 <style scoped lang='css'>
+hr{
+width:100%;text-align:left;margin-left:0;
+border-style: inset;
+margin-bottom: 0pc;
+padding: 0;
+border-top:0.001pc solid lightgray ;
+}
+.center{
+  padding-left:0% ;
+  padding-right: 0%;
+}
 .search{
   width: 20pc;
   box-sizing: border-box;
@@ -165,6 +176,10 @@ export default {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+.title a{
+  color: white;
+  text-decoration: none;
+}
 .row-header {
   margin-top: 1pc;
   padding-left: 25%;
@@ -173,7 +188,7 @@ export default {
   flex-wrap: wrap;
 }
 .row-header button{
-  visibility: hidden;
+  display: none;
 }
 .navbar {
   padding-left:26%;
@@ -262,6 +277,9 @@ export default {
   font-size: 120%;
   font-weight: bold;
 }
+.title h2{
+ padding-left: 2%;
+}
 @media (max-width: 800px) {
   .navbar{
     opacity: 0;
@@ -269,9 +287,26 @@ export default {
     display: none;
   }
   .search{
-    justify-self: left;
     width: 1pc;
   }
+  .center{
+  padding-left:0% ;
+  padding-right: 0%;
+  
+}
+.row-header{
+  padding-left:0 ;
+}
+.row-header .search{
+  padding-right: 0pc;
+  margin-right: 0pc;
+}
+.header{
+  width: 90%;
+}
+.row-header button{
+  display: none;
+}
 }
 
 @media (max-width: 600px) {
@@ -281,8 +316,26 @@ export default {
     display: none;
   }
   .search{
-    justify-self: left;
     width: 1pc;
   }
+  .center{
+  padding-left:0% ;
+  padding-right: 0%;
+}
+.row-header{
+  padding-left:0 ;
+  padding: 0;
+  margin: 0;
+}
+.row-header .search{
+  padding-right: 0pc;
+  margin-right: 0pc;
+}
+.header{
+  width: 90%;
+}
+.row-header button{
+  display: none;
+}
 }
 </style>

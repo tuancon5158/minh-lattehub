@@ -31,7 +31,7 @@
       <div>Reply from monolom</div><div> September 4</div>
     </div>
     <div class="button">
-      <button>Read more</button>
+      <button><a href="#">Read more</a></button>
     </div>
   </div>
 </template>
@@ -62,6 +62,10 @@ export default {};
 .c {
   font-size: 80%;
   padding-left: 2%;
+}
+a{
+  color: green;
+  text-decoration: none;
 }
 .svg{
   border-left: green 0.2pc solid;

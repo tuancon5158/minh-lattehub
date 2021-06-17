@@ -1,9 +1,8 @@
 <template>
     <div>
-        <div class="row"><div><img src="../assets/logo.png" /></div></div>
         <div class="row">
             <div class="column">
-                <!-- <div><img src="../assets/logo.png" /><h3 class="contract">Contract Us</h3></div> -->
+                <div><img src="../assets/logo.png" /></div>
                 <div><h3 class="contract">Contract Us</h3></div>
                 <div><p><b>Address:</b>Room 611, Building 3, Hongye Building West Residential Area, Longhua District, Haikou City, Hainan Province</p></div>
                 <div><p><b>Email:</b>support@monolom.com</p></div>
@@ -63,12 +62,12 @@ export default {
 }
 .contract{
    
-    visibility: hidden;
+    display: none;
    
 }
 @media (max-width: 800px) {
 .contract{
-    visibility: visible;
+    display: block;
     
 }
   .column {
@@ -79,9 +78,6 @@ export default {
 }
 
 @media (max-width: 600px) {
-    .contract{
-    visibility: visible;
-}
   .column {
     flex: 100%;
     max-width: 100%;

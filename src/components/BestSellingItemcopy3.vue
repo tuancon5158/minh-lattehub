@@ -1,12 +1,17 @@
 <template>
   <div class="card">
-    <a href="#"><img
-      src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f56ac749aaeacb476f1.jpeg"
-      style="width: 100%"
-    />
-    <p>Plaid Long Sleeve Loose Crew Neck</p>
-    <p class="price">$19.99</p>
-    <button>Add to Cart</button></a>
+    <a href="#"
+      ><img
+        src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f8c7c2ee62b24127279.jpeg"
+        style="width: 100%"
+      />
+      <p>
+        Women Floral Wrap Dress Off Shoulder Tie Up Front Ruffle Mini Dress
+        Summer Office Lady Slash Neck Printed Pencil Dress
+      </p>
+      <p class="price">$19.99</p>
+      <button>Add to Cart</button></a
+    >
   </div>
 </template>
 <script>
@@ -18,22 +23,22 @@ export default {};
   max-width: 250px;
   margin: auto;
   margin-top: 0pc;
-  padding-top:0pc ;
+  padding-top: 0pc;
   text-align: left;
   font-family: arial;
   height: 20pc;
 }
-.card:hover button{
-visibility:visible;
+.card:hover button {
+  visibility: visible;
 }
-.card a{
-   color: black;
-    text-decoration: none;
+.card a {
+  color: black;
+  text-decoration: none;
 }
-.card img{
+.card img {
   height: 15pc;
 }
-.card p{
+.card p {
   text-align: left;
   padding-left: 1pc;
   padding-right: 1pc;

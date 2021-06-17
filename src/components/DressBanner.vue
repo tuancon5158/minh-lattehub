@@ -18,7 +18,7 @@
             frock that fits. Browse the selection of classic or contemporary
             dresses in for amazing styles.
           </p>
-          <br /><button>VIEW MORE</button>
+          <br /><button><a href="#">VIEW MORE</a></button>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
             formal occasion?
           </p>
           <br />
-          <button>VIEW MORE</button>
+          <button><a href="#">VIEW MORE</a></button>
         </div>
       </div>
       <div class="column">
@@ -75,6 +75,10 @@ export default {};
   
   width: 100%;
   
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 .column p {
   text-align: left;

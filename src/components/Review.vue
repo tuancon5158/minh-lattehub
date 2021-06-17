@@ -119,13 +119,13 @@ ReviewItem
 }
 .review{
   margin-top: 1pc;
-  margin-bottom: 10pc;
+  margin-bottom: 5pc;
 }
 @media (max-width: 800px) {
   .title {
     padding-top: 1%;
     padding-left: 35%;
-    padding-bottom: 1%;
+    padding-bottom: 1pc;
   }
  .column{
     flex: 100%;
@@ -143,7 +143,7 @@ ReviewItem
   .title {
     padding-top: 1%;
     padding-left: 35%;
-    padding-bottom: 1%;
+    padding-bottom: 1pc;
   }
   .column{
     flex: 100%;

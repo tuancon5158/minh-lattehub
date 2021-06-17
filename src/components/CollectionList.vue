@@ -1,5 +1,6 @@
 <template>
   <div class="list">
+    <center>
     <div><h2 >Collection list</h2></div>
     <div class="row">
       <div class="collection">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </div>
+    </center>
   </div>
 </template>
 <script>

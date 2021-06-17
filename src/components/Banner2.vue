@@ -1,11 +1,12 @@
 <template>
-    <div class="banner">
+   <div><a href="#"> <div class="banner">
         <br>
         <div><p>Dress for Every<br>Budget</p></div>
         <div><b>We've got a range of style——featuring on-trend romantic details and midi and<br>maxi lengths——in a range of prices</b></div>
         <br>
         <button>Shop Now</button>
-
+        </div>
+    </a>
     </div>
 </template>
 <script>
@@ -32,6 +33,10 @@ p{
     font-size: 400%;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+     color: black;
+    text-decoration: none;
 }
 button{
     background-color: white;

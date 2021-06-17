@@ -1,61 +1,56 @@
 <template>
-    <div class="collection">
-        
-        <div class="scroll">
-        <div class="row">
-            <div class="column">
-                <BestSellingItem/>
-                
-            </div>
-            <div class="column">
-                <BestSellingItem/>
-                
-            </div>
-            <div class="column">
-                <BestSellingItem/>
-                
-            </div>
-            <div class="column">
-                <BestSellingItem/>
-                
-            </div>
-            <div class="column">
-                <BestSellingItem/>
-                
-            </div>
-            
+  <div class="collection">
+    <div class="scroll">
+      <div class="row">
+        <div class="column">
+          <BestSellingItem />
         </div>
-        
-    
+        <div class="column">
+          <BestSellingItemCopy />
+        </div>
+        <div class="column">
+          <BestSellingItemCopy2 />
+        </div>
+        <div class="column">
+          <BestSellingItemCopy3 />
+        </div>
+        <div class="column">
+          <BestSellingItem />
+        </div>
+      </div>
     </div>
-    </div>
+  </div>
 </template>
 <script>
-import BestSellingItem from './BestSellingItem.vue'
+import BestSellingItem from "./BestSellingItem.vue";
+import BestSellingItemCopy from "./BestSellingItemcopy.vue";
+import BestSellingItemCopy2 from "./BestSellingItemcopy2.vue";
+import BestSellingItemCopy3 from "./BestSellingItemcopy3.vue";
 export default {
-    components:{
-        BestSellingItem,
-    }
-}
+  components: {
+    BestSellingItem,
+    BestSellingItemCopy,
+    BestSellingItemCopy2,
+    BestSellingItemCopy3,
+  },
+  data: function () {},
+};
 </script>
-<style scoped lang='css'> 
+<style scoped lang='css'>
 ::-webkit-scrollbar {
   height: 0.2pc;
 }
 
-
 ::-webkit-scrollbar-track {
-  background: grey; 
+  background: grey;
 }
- 
 
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
-
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 .scroll {
   margin-top: 0pc;
@@ -65,6 +60,7 @@ export default {
   text-align: center;
   white-space: nowrap;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .row {
   flex-wrap: wrap;
@@ -74,7 +70,6 @@ export default {
   padding-left: 2pc;
   flex: 75%;
   max-width: 25%;
-  
 }
 @media (max-width: 800px) {
   .column {

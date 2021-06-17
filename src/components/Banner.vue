@@ -1,12 +1,13 @@
 <template>
-    <div class="banner">
+   <div><a href="#"> <div class="banner">
         <br>
         <div><p>SIXTH<br>COLLECTION</p></div>
         <div><b>Be sexier - Be deeper in relationship</b></div>
         <br>
         <button>Shop Now</button>
-
-    </div>
+        </div>
+    </a></div>
+    
 </template>
 <script>
 export default {
@@ -33,6 +34,10 @@ p{
     font-size: 400%;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+     color: black;
+    text-decoration: none;
 }
 button{
     background-color: white;

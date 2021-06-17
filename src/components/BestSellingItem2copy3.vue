@@ -1,12 +1,14 @@
 <template>
-  <div class="card">
-    <a href="#"><img
-      src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f56ac749aaeacb476f1.jpeg"
+  <div><a href="#"><div class="card">
+    <img
+      src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f8c7c2ee62b24127279.jpeg"
       style="width: 100%"
     />
-    <p>Plaid Long Sleeve Loose Crew Neck</p>
+    <p>Women Floral Wrap Dress Off Shoulder Tie Up Front Ruffle Mini Dress
+        Summer Office Lady Slash Neck Printed Pencil Dress</p>
     <p class="price">$19.99</p>
-    <button>Add to Cart</button></a>
+    <p><button>Add to Cart</button></p>
+    </div></a>
   </div>
 </template>
 <script>
@@ -15,38 +17,34 @@ export default {};
 <style scoped lang='css'>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 250px;
+  max-width: 10pc;
   margin: auto;
-  margin-top: 0pc;
-  padding-top:0pc ;
-  text-align: left;
+  text-align: center;
   font-family: arial;
-  height: 20pc;
+  height: 12pc;
 }
 .card:hover button{
-visibility:visible;
-}
-.card a{
-   color: black;
-    text-decoration: none;
+  visibility:visible;
 }
 .card img{
-  height: 15pc;
+  height: 7pc;
+  width: 7pc;
 }
 .card p{
-  text-align: left;
-  padding-left: 1pc;
-  padding-right: 1pc;
+  text-align: center;
   overflow: auto;
   overflow-x: hidden;
   font-size: 90%;
 }
 .price {
-  text-align: left;
-  color: #0d9ef2;
+  text-align: center;
+  color: grey;
   font-size: 22px;
 }
-
+a{
+  color: black;
+  text-decoration: none;
+}
 .card button {
   border: none;
   outline: 0;

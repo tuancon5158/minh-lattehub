@@ -1,13 +1,16 @@
 <template>
-  <div><a href="#"><div class="card">
-    <img
-      src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f56ac749aaeacb476f1.jpeg"
-      style="width: 100%"
-    />
-    <p>Plaid Long Sleeve Loose Crew Neck</p>
-    <p class="price">$19.99</p>
-    <p><button>Add to Cart</button></p>
-    </div></a>
+  <div>
+    <a href="#"
+      ><div class="card">
+        <img
+          src="https://minio.lattehub.com/img/310/300/resize/60bdc849e0db61849045908f/2021/06/10/latte-image-60c28f4e7c2ee65fb812706c.jpeg"
+          style="width: 100%"
+        />
+        <p>Vintage Calico Print O-neck Short Sleeve Maxi Dress</p>
+        <p class="price">$19.99</p>
+        <p><button>Add to Cart</button></p>
+      </div></a
+    >
   </div>
 </template>
 <script>
@@ -22,14 +25,14 @@ export default {};
   font-family: arial;
   height: 12pc;
 }
-.card:hover button{
-  visibility:visible;
+.card:hover button {
+  visibility: visible;
 }
-.card img{
+.card img {
   height: 7pc;
   width: 7pc;
 }
-.card p{
+.card p {
   text-align: center;
   overflow: auto;
   overflow-x: hidden;
@@ -40,7 +43,7 @@ export default {};
   color: grey;
   font-size: 22px;
 }
-a{
+a {
   color: black;
   text-decoration: none;
 }
