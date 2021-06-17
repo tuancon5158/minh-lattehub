@@ -58,6 +58,7 @@ export default {};
   border: solid;
   width: 15px;
   background-color: green;
+  align-self: center;
 }
 .c {
   font-size: 80%;

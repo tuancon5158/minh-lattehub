@@ -77,6 +77,7 @@ ReviewItem
   border: solid;
   width: 15px;
   background-color: green;
+  text-align: center;
 }
 .title {
   display: flex;
@@ -133,7 +134,7 @@ ReviewItem
  }
  .review{
   margin-top: 20pc;
-  margin-bottom: 15pc;
+  margin-bottom: 10pc;
 }
 }
 
@@ -151,7 +152,7 @@ ReviewItem
  }
  .review{
   margin-top: 20pc;
-  margin-bottom: 15pc;
+  margin-bottom: 5pc;
 }
 }
 </style>
