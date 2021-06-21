@@ -15,24 +15,16 @@
     <div class="scroll">
       <div class="row">
         <div class="column">
-          <ReviewItem />
-          <ReviewItem />
-          <ReviewItem />
+          <ReviewItem v-for="i in 3" :key="i"/>
         </div>
         <div class="column">
-          <ReviewItem />
-          <ReviewItem />
-          <ReviewItem />
+         <ReviewItem v-for="i in 3" :key="i"/>
         </div>
         <div class="column">
-          <ReviewItem />
-          <ReviewItem />
-          <ReviewItem />
+         <ReviewItem v-for="i in 3" :key="i"/>
         </div>
         <div class="column">
-          <ReviewItem />
-          <ReviewItem />
-          <ReviewItem />
+          <ReviewItem v-for="i in 3" :key="i"/>
         </div>
       </div>
     </div>
