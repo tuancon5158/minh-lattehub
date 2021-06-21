@@ -14,16 +14,7 @@
     <div class="subTitle">Rated<b> 4.3</b> / 5 based on <b>10,991 reviews</b> on<b> Trustpiot</b></div>
     <div class="scroll">
       <div class="row">
-        <div class="column">
-          <ReviewItem v-for="i in 3" :key="i"/>
-        </div>
-        <div class="column">
-         <ReviewItem v-for="i in 3" :key="i"/>
-        </div>
-        <div class="column">
-         <ReviewItem v-for="i in 3" :key="i"/>
-        </div>
-        <div class="column">
+        <div class="column" v-for="j in 4" :key="j">
           <ReviewItem v-for="i in 3" :key="i"/>
         </div>
       </div>
