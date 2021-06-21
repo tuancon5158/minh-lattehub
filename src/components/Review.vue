@@ -3,11 +3,7 @@
     <div class="title">
       <div>
         <b> Excellent</b>
-        <span class="material-icons"> star </span>
-        <span class="material-icons"> star </span>
-        <span class="material-icons"> star </span>
-        <span class="material-icons"> star </span>
-        <span class="material-icons"> star </span>
+        <span class="material-icons" v-for="i in 5" :key="i"> star </span>
       </div>
       
     </div>

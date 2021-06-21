@@ -1,11 +1,7 @@
 <template>
   <div class="all">
     <div class="title">
-      <span class="material-icons"> star </span>
-      <span class="material-icons"> star </span>
-      <span class="material-icons"> star </span>
-      <span class="material-icons"> star </span>
-      <span class="material-icons"> star </span>
+      <span class="material-icons" v-for="i in 5" :key="i"> star </span>
       <i class="c">4 hours ago</i>
     </div>
     <br />
