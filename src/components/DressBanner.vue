@@ -11,7 +11,6 @@
       <div class="column">
         <div class="title">
           <h1>Getting dressed up?</h1>
-          <br />
           <p>
             Shop by style, body type, occasion and more, and find the perfect
             dress! Whether you’re heading to work or to a wedding, there’s a
@@ -26,7 +25,6 @@
       <div class="column">
         <div class="title">
           <h1>Dresses for women.</h1>
-          <br />
           <p>
             Enjoy quality, fashionable women's clothing from Modefeme. Whether
             you're just looking to refresh your wardrobe, add some special
@@ -82,10 +80,10 @@ a{
 }
 .column p {
   text-align: left;
-  font-size: 120%;
+  font-size: 100%;
 }
 .column h1 {
-    font-size: 150%;
+    font-size: 200%;
   text-align: left;
 }
 .title{
@@ -105,20 +103,42 @@ a{
   width: 25%;
   padding: 2%;
   border: none;
-  font-size: 95%;
+  font-size: 100%;
   font-weight: bold;
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
+  .column h1 {
+    font-size: 200%;
+  text-align: center;
 }
-
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+.title{
+    margin: 0%;
+    text-align: center;
+}
+.column button {
+  background-color: #0654f3;
+  color: white;
+  width: 50%;
+  height: 45px;
+  padding: 2%;
+  border: none;
+  font-size: 100%;
+  font-weight: bold;
+}
+.column img {
+  
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.column figure{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
 }
 </style>

@@ -29,7 +29,7 @@ p{
     overflow: hidden;
 }
 .col td{
-   width: 240px; 
+   width: 150px; 
    position: relative;
 }
 .col td:hover button{
@@ -37,7 +37,7 @@ p{
 }
 .col td img {
   width: 100%;
-  height: 250px;
+  height: 150px;
   margin-right: 10px;
 }
 .title{

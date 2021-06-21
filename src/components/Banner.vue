@@ -1,55 +1,90 @@
 <template>
-   <div><a href="#"> <div class="banner">
-        <br>
-        <div><p>SIXTH<br>COLLECTION</p></div>
-        <div><b>Be sexier - Be deeper in relationship</b></div>
-        <br>
-        <button>Shop Now</button>
-        </div>
-    </a></div>
-    
+  <div class="banner">
+    <div class="container">
+      <img
+        id="img"
+        style="width: 100%"
+      />
+      <div class="centered">
+          <p class="title">{{banner.title}}</p>
+          <p class="subTitle">{{banner.subTitle}}</p>
+          <button v-if="this.banner.has==='1'">SHOP NOW</button>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {
-    
-}
+  props: ["banner"],
+  mounted(){
+      document.getElementById("img").setAttribute("src",this.banner.img)
+     
+  },
+};
 </script>
-<style scoped lang='css'>
+<style scoped lang="css">
 .banner{
-    padding: 10%;
-    margin-top: 7%;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('https://minio.lattehub.com/img/2000/2000/resize/60bdc849e0db61849045908f/2021/06/09/lattehub-image-60c09bdc5793c9149caa93e4.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   color: ghostwhite;
-   filter: contrast(90%);
+float: left;
+display: block;
 }
-p{
-    font-size: 400%;
+.container {
+  text-align: center;
+  color: white;
+  margin-top: 0%;
+}
+.title{
+    font-size: 450%;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 5%;
+    padding-left: 20%;
 }
-a{
-     color: black;
-    text-decoration: none;
+.subTitle{
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 5%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 button{
+    border: 0;
+    width: 15%;
+    height: 2pc;
+    font-weight: bold;
     background-color: white;
+}
+@media screen and (max-width: 600px) {
+    .centered {
+  position: relative;
+}
+.title{
+    font-size: 200%;
+    font-weight: bold;
     color: black;
-    border: none;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 120%;
-  margin: 1%;
-  padding: 0.5%;
-  cursor: pointer;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+}
+.subTitle{
+   visibility: hidden;
+}
+button{
+    margin-top: 0%;
+    border: 0;
+    width: 70%;
+    height: 2pc;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+}
 }
 </style>

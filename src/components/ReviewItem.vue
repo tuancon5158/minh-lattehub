@@ -1,12 +1,12 @@
 <template>
   <div class="all">
     <div class="title">
-      <i class="material-icons">start_border</i>
-      <i class="material-icons">start_border</i>
-      <i class="material-icons">start_border</i>
-      <i class="material-icons">start_border</i>
-      <i class="material-icons">start_border</i>
-      <c class="c">4 hours ago</c>
+      <span class="material-icons"> star </span>
+      <span class="material-icons"> star </span>
+      <span class="material-icons"> star </span>
+      <span class="material-icons"> star </span>
+      <span class="material-icons"> star </span>
+      <i class="c">4 hours ago</i>
     </div>
     <br />
     <div class="name"><b>Belinda Asevedo</b></div>
@@ -19,19 +19,22 @@
     </div>
     <br />
     <div class="svg">
-     <div> <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        style="color: green;"
-      >
-        <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
-      </svg></div>
-      <div>Reply from monolom</div><div> September 4</div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="color: green"
+        >
+          <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
+        </svg>
+      </div>
+      <div>Reply from monolom</div>
+      <div>September 4</div>
     </div>
     <div class="button">
-      <button><a href="#">Read more</a></button>
+      <button>Read more</button>
     </div>
   </div>
 </template>
@@ -53,33 +56,33 @@ export default {};
   font-size: 90%;
 }
 .material-icons {
-  font-size: 75%;
+  font-size: 100%;
   color: white;
   border: solid;
-  width: 15px;
+  width: 14px;
   background-color: green;
-  align-self: center;
 }
 .c {
   font-size: 80%;
   padding-left: 2%;
 }
-a{
-  color: green;
-  text-decoration: none;
-}
-.svg{
+.svg {
   border-left: green 0.2pc solid;
 }
-.svg svg{
+.svg svg {
   color: green;
   float: left;
 }
-.button button{
+.button button {
   color: green;
   border: none;
   background-color: #f8f9fa;
   padding: 20%;
   width: 100%;
+}
+@media screen and (max-width: 600px){
+.all{
+    width: 100%;
+}
 }
 </style>
