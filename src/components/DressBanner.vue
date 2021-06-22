@@ -74,6 +74,12 @@ export default {};
   width: 100%;
   
 }
+.column img:hover{
+  cursor: default;
+}
+button:hover{
+  cursor: pointer;
+}
 a{
   color: white;
   text-decoration: none;

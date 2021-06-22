@@ -40,7 +40,7 @@ export default {
   font-size: 100%;
   color: white;
   border: solid;
-  width: 21px;
+  width: 22px;
   background-color: green;
 }
 .title {

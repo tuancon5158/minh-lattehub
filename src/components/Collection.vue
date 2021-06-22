@@ -48,6 +48,9 @@ export default {
 };
 </script>
 <style scoped lang='css'>
+td:hover{
+  cursor: pointer;
+}
 #mobile {
   display: none;
 }

@@ -8,7 +8,7 @@
               <h3 class="ftr-hdr">
                 <img
                   src="https://minio.lattehub.com/img/600/744/resize/60bdc849e0db61849045908f/2021/06/07/lattehub-image-60bdd1cef27e5925329a45c9.png"
-                  width="150pc"
+                  width="250pc"
                 />
               </h3>
               <ul class="ftr-links-sub">
@@ -219,7 +219,8 @@ export default {
   display: none;
 }
 .footer-gray {
-  margin-top: 10%;
+  margin-top: 0%;
+  padding-top: 0%;
   background-color: white;
   width: 100%;
   margin-bottom: 0%;
@@ -272,6 +273,7 @@ hr {
 .ftr-links-sub {
   padding: 0;
   margin: 0;
+  width: 120%;
 }
 
 .ftr-links-sub:after {

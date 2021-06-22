@@ -24,13 +24,11 @@ export default {
 </script>
 <style scoped lang="css">
 .banner{
-float: left;
-display: block;
+  margin-top: 9%;
 }
 .container {
   text-align: center;
   color: white;
-  margin-top: 0%;
 }
 .title{
     font-size: 450%;
@@ -60,6 +58,9 @@ button{
     height: 2pc;
     font-weight: bold;
     background-color: white;
+}
+button:hover{
+  cursor: pointer;
 }
 @media screen and (max-width: 600px) {
     .centered {

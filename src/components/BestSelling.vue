@@ -32,6 +32,9 @@ p{
    width: 240px; 
    position: relative;
 }
+.col td:hover{
+  cursor: pointer;
+}
 .col td:hover button{
     visibility: visible;
 }

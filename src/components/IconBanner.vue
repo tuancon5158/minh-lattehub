@@ -2,35 +2,34 @@
   <div>
     <span id="icon" class="web">
       <td>
-        <span class="material-icons"> flight_takeoff</span>
-        <span>Standard Shipping Worldwide</span>
+        <tr class="material-icons"> flight_takeoff</tr><br>
+        Standard Shipping Worldwide
       </td>
       <td>
-        <span class="material-icons"> published_with_changes </span>
-        <span>Free Return Worldwide On Orders Over $30</span>
+        <tr class="material-icons"> published_with_changes </tr>
+        <br>Free Return Worldwide On Orders Over $30
       </td>
       <td>
-        <span class="material-icons"> verified_user </span>
-        <span><b>REMEMBER TO DRINK</b></span
-        ><br />
-        <span>100% Safe & Sercure Checkout</span>
+        <tr class="material-icons"> verified_user </tr>
+        <br><b>REMEMBER TO DRINK</b><br>
+        100% Safe & Sercure Checkout
       </td>
     </span>
     <span class="mobile">
       <tr>
         <td>
-          <span class="material-icons"> flight_takeoff</span>Standard Shipping
+          <tr class="material-icons"> flight_takeoff</tr><br>Standard Shipping
           Worldwide
         </td>
       </tr>
       <tr>
         <td>
-          <span class="material-icons"> published_with_changes </span>Free Return Worldwide On Orders Over $30
+          <tr class="material-icons"> published_with_changes </tr><br>Free Return Worldwide On Orders Over $30
         </td>
       </tr>
       <tr>
         <td>
-          <span class="material-icons"> verified_user </span><b>REMEMBER TO DRINK</b><br>100% Safe & Sercure Checkout
+          <tr class="material-icons"> verified_user </tr><br><b>REMEMBER TO DRINK</b><br>100% Safe & Sercure Checkout
         </td>
       </tr>
     </span>
@@ -41,7 +40,7 @@ export default {};
 </script>
 <style scoped lang='css'>
 .material-icons{
-  font-size: 200%;
+  font-size: 350%;
 }
 .mobile {
   display: none;
@@ -57,12 +56,16 @@ td {
   width: 22pc;
   height: 5pc;
   text-align: center;
-  padding-top: 5%;
-  font-size: 120%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 100%;
   color: #3e444b;
   background-color: #ebf0ff;
 }
 @media screen and (max-width: 600px) {
+  .material-icons{
+  font-size: 250%;
+}
   .mobile {
     display: inline-block;
   }

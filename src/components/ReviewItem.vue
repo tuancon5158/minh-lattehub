@@ -55,7 +55,7 @@ export default {};
   font-size: 100%;
   color: white;
   border: solid;
-  width: 14px;
+  width: 15px;
   background-color: green;
 }
 .c {
@@ -75,6 +75,9 @@ export default {};
   background-color: #f8f9fa;
   padding: 20%;
   width: 100%;
+}
+.button button:hover{
+  cursor: pointer;
 }
 @media screen and (max-width: 600px){
 .all{
