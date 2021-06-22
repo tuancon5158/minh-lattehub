@@ -144,6 +144,7 @@ export default {
       document.getElementById("myNav").style.width = "100%";
       document.getElementById("myNav").style.height= "100pc";
       document.getElementById("myNav").style.backgroundColor="white";
+      document.getElementById("myNav").style.position="absolute";
     },
 
     closeNav() {
