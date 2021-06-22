@@ -3,7 +3,7 @@
     <span class="material-icons" id="menu" v-on:click="openNav()"> menu </span>
     <img
       src="https://minio.lattehub.com/img/600/744/resize/60bdc849e0db61849045908f/2021/06/07/lattehub-image-60bdd1cef27e5925329a45c9.png"
-      width="150pc"
+      width="150pc" class='logo'
     />
     <a href="#"
       ><button id="search-a">
@@ -204,10 +204,16 @@ export default {
 };
 </script>
 <style scoped lang='css'>
+.material-icons{
+  vertical-align: sub;
+}
 #header{
   margin-top: 0%;
   margin-bottom: 0%;
   padding-top: 0.5%;
+}
+.logo{
+  vertical-align: sub;
 }
 img:hover{
   cursor: pointer;
@@ -389,5 +395,8 @@ ul li ul li a:hover {
   #myNav {
     display: block;
   }
+  .material-icons{
+  vertical-align: baseline;
+}
 }
 </style>

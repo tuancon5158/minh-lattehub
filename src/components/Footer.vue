@@ -346,5 +346,8 @@ a{
   display: inline-block;
   width: 100%;
 }
+.material-icons{
+  vertical-align: sub;
+}
 }
 </style>
