@@ -241,6 +241,12 @@ hr {
   margin-bottom: 0%;
   padding: 0%;
 }
+span{
+  line-height: 150%;
+}
+a{
+  line-height: 150%;
+}
 
 .footer-custom:after {
   display: table;
