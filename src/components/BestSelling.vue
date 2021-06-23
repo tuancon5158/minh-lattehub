@@ -75,13 +75,30 @@ button{
   font-weight: bold;
   font-size: 120%;
   width: 100%;
-  margin-left: 4%;
+  margin-left: 2%;
   margin-top: 0%;
   padding-top: 0%;
 }
 .col td img {
   width: 100%;
-  height: 150px;
+  height: 12pc;
+  margin-right: 10px;
+}
+}
+@media screen and (max-width: 800px){
+.col {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.col td img {
+  width: 100%;
+  height: 10pc;
   margin-right: 10px;
 }
 }

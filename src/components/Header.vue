@@ -383,6 +383,32 @@ ul li ul li a:hover {
   background-color: white;
   height: 2.5pc;
   color: rgb(190, 188, 188);
+  font-size: 150%;
+}
+.nav {
+  text-align: left;
+  padding-left: 4%;
+  margin-top: 0%;
+  overflow-x: hidden;
+}
+#bag{
+  margin-left: 2%;
+}
+
+}
+@media screen and (max-width: 800px){
+  img{
+   padding-left: 0%;
+  }
+  #search-a {
+  border: 0.1pc solid;
+  border-color: rgb(190, 188, 188);
+  display: inline;
+  width: 50%;
+  text-align: left;
+  background-color: white;
+  height: 2.5pc;
+  color: rgb(190, 188, 188);
   font-size: 80%;
 }
 .nav {
