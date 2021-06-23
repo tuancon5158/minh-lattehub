@@ -62,7 +62,7 @@ button{
 button:hover{
   cursor: pointer;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .centered {
   position: absolute;
   top: 25%;

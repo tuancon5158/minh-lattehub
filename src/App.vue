@@ -248,7 +248,7 @@ img{
 img:hover{
   cursor: pointer;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
   .titleHome{
   padding-left: 1%;
   font-size: 180%;

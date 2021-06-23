@@ -85,7 +85,7 @@ export default {
   margin-top: 1pc;
   margin-bottom: 10pc;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
   .title {
   display: flex;
   flex-wrap: wrap;

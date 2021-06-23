@@ -112,7 +112,7 @@ a{
   font-size: 100%;
   font-weight: bold;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
 .column button {
   background-color: #0654f3;
   color: white;

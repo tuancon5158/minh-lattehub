@@ -68,7 +68,7 @@ button{
   margin-top: 1%;
   margin-bottom: 3%;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
 .col {
   display: inline-block;
   text-align: center;

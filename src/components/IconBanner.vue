@@ -62,7 +62,7 @@ td {
   color: #3e444b;
   background-color: #ebf0ff;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
   #icon {
   margin-left: 0%;
 }

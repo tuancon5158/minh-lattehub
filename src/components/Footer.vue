@@ -324,7 +324,7 @@ a{
   width: 100%;
   float: left;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
   .footer-custom {
   color: black;
   font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light",

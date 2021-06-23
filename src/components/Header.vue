@@ -370,7 +370,7 @@ ul li ul li a:hover {
 #myNav {
   display: none;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
   img{
    padding-left: 0%;
   }
