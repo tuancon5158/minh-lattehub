@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <Header id="header" />
-    <br>
-    <Banner v-bind:banner="banners[0]"/>
+    <Banner v-bind:banner="banners[0]" id='banner'/>
     <br>
     <b id="colection">Collection list</b>
     <Collection/>
@@ -23,7 +22,6 @@
     <br>
     <IconBanner/>
     <Review id="review"/>
-    <br>
     <Footer />
   </div>
 </template>
@@ -186,18 +184,22 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 0%;
   overflow-x: hidden; 
+}
+#banner{
+  margin-top: 7%;
+}
+#review{
+  margin-bottom: 5%;
 }
 #header {
   position: fixed;
   width: 100%;
   background-color: white;
-  opacity: 95%;
-  margin-top:0% ;
-  margin-bottom: 1%;
+  opacity: 90%;
+  height: 12%;
+  top:0;
   z-index: 100;
-  padding-top: 0%;
 }
 #colection{
   text-align: center;
@@ -224,7 +226,7 @@ text-align: center;
 .barHome{
   padding-top: 1%;
   padding-bottom: 0%;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
 }
 .buttonHome{
   margin-left: 36%;
@@ -236,13 +238,64 @@ text-align: center;
   width: 10%;
   height: 3pc;
 }
+.buttonHome:hover{
+  cursor: pointer;
+}
 img{
   padding: 0;
   margin: 0;
 }
+img:hover{
+  cursor: pointer;
+}
+@media screen and (max-width: 800px){
+  .titleHome{
+  padding-left: 1%;
+  font-size: 180%;
+}
+.barHome{
+  padding-top: 1%;
+  padding-bottom: 0%;
+  margin-bottom: 1%;
+}
+.buttonHome{
+  margin-left: 42%;
+  border: none;
+  background-color: #0654f3 !important;
+  color: white !important;
+  font-size: 100% !important;
+  font-weight: bold;
+  width: 30%;
+  height: 3pc;
+}
+#colection{
+  text-align: center;
+  padding-left: 40%;
+  font-size: 150%;
+  font-weight: bold;
+}
+#seller{
+  text-align: center;
+  padding-left: 38%;
+  font-size: 150%;
+  font-weight: bold;
+}
+#recomendation{
+text-align: center;
+  padding-left: 15%;
+  font-size: 150%;
+  font-weight: bold;
+}
+}
 @media screen and (max-width: 600px) {
   #app div{
   margin-bottom: 2%;
+}
+#banner{
+  margin-top: 12.5%;
+}
+#header{
+  height: 6%;
 }
   #app{
     padding: 0;

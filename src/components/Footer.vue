@@ -8,7 +8,7 @@
               <h3 class="ftr-hdr">
                 <img
                   src="https://minio.lattehub.com/img/600/744/resize/60bdc849e0db61849045908f/2021/06/07/lattehub-image-60bdd1cef27e5925329a45c9.png"
-                  width="250pc"
+                  width="200pc"
                 />
               </h3>
               <ul class="ftr-links-sub">
@@ -324,6 +324,32 @@ a{
   width: 100%;
   float: left;
 }
+@media screen and (max-width: 800px){
+  .footer-custom {
+  color: black;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left:1%;
+}
+.footer-list-wrap {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  margin-right: 60px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+hr {
+  margin-left: 2%;
+  width: 96%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+} 
 @media screen and (max-width: 600px) {
   .footer-gray {
     display: none;

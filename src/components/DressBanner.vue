@@ -85,16 +85,16 @@ a{
   text-decoration: none;
 }
 .column p {
-  text-align: left;
+  text-align: center;
   font-size: 100%;
 }
 .column h1 {
     font-size: 200%;
-  text-align: left;
+  text-align: center;
 }
 .title{
     margin: 10%;
-    text-align: left;
+    text-align: center;
 }
 .column figure img{
     transform: scale(1);
@@ -111,6 +111,18 @@ a{
   border: none;
   font-size: 100%;
   font-weight: bold;
+}
+@media screen and (max-width: 800px){
+.column button {
+  background-color: #0654f3;
+  color: white;
+  width: 50%;
+  height: 45px;
+  padding: 2%;
+  border: none;
+  font-size: 100%;
+  font-weight: bold;
+}
 }
 @media screen and (max-width: 600px) {
   .column {

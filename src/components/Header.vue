@@ -61,14 +61,14 @@
             </span></a
           >
         </li>
-        <li>
+        <li id='contract'>
           <a href="#"
             >Contract Us<span class="material-icons" style="color: white">
               arrow_drop_down
             </span></a
           >
         </li>
-        <li>
+        <li id='faq'>
           <a href="#"
             >FAQs<span class="material-icons" style="color: white">
               arrow_drop_down
@@ -369,6 +369,37 @@ ul li ul li a:hover {
 }
 #myNav {
   display: none;
+}
+@media screen and (max-width: 800px){
+  img{
+   padding-left: 0%;
+  }
+  #search-a {
+  border: 0.1pc solid;
+  border-color: rgb(190, 188, 188);
+  display: inline;
+  width: 50%;
+  text-align: left;
+  background-color: white;
+  height: 2.5pc;
+  color: rgb(190, 188, 188);
+  font-size: 80%;
+}
+.nav {
+  text-align: left;
+  padding-left: 4%;
+  margin-top: 0%;
+  overflow-x: hidden;
+}
+#bag{
+  margin-left: 2%;
+}
+#contract{
+  display: none;
+}
+#faq{
+  display: none;
+}
 }
 @media screen and (max-width: 600px) {
   #search-a {

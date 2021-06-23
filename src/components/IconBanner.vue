@@ -62,6 +62,11 @@ td {
   color: #3e444b;
   background-color: #ebf0ff;
 }
+@media screen and (max-width: 800px){
+  #icon {
+  margin-left: 0%;
+}
+}
 @media screen and (max-width: 600px) {
   .material-icons{
   font-size: 250%;

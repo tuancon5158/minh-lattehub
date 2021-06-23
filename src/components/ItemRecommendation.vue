@@ -65,6 +65,23 @@ button{
   margin-top: 1%;
   margin-bottom: 3%;
 }
+@media screen and (max-width: 800px){
+  .col {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  width: 250%;
+  margin-left: 4%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.col td img {
+  width: 100%;
+  height: 150px;
+  margin-right: 25px;
+}
+} 
 @media screen and (max-width: 600px) {
     .col {
   display: flexbox;

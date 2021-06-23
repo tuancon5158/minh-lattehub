@@ -62,6 +62,40 @@ button{
 button:hover{
   cursor: pointer;
 }
+@media screen and (max-width: 800px) {
+  .centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title{
+    font-size: 400%;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+.subTitle{
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 5%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+}
+button{
+    border: 0;
+    width: 25%;
+    height: 2pc;
+    font-weight: bold;
+    background-color: white;
+}
+.banner{
+  padding-top: 7%;
+}
+}
 @media screen and (max-width: 600px) {
     .centered {
   position: relative;

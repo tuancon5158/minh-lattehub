@@ -66,6 +66,17 @@ td:hover{
 .col td img {
   width: 100%;
 }
+@media screen and (max-width: 800px){
+  .col {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  width: 100%;
+  padding-left: 1%;
+  
+}
+} 
 @media screen and (max-width: 600px) {
   #mobile {
     display: block;
@@ -75,8 +86,8 @@ td:hover{
   }
   .col {
     display: block;
-    text-align: right;
-    padding-left: 5%;
+    text-align: center;
+    padding-left: 0%;
     font-size: 95%;
   }
   .col a {
@@ -84,7 +95,7 @@ td:hover{
     margin-bottom: 10%;
   }
   .col a img {
-    width: 165%;
+    width: 100%;
   }
 }
 </style>

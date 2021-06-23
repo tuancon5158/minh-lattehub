@@ -85,6 +85,29 @@ export default {
   margin-top: 1pc;
   margin-bottom: 10pc;
 }
+@media screen and (max-width: 800px){
+  .title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 1%;
+  padding-left: 35%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+.subTitle{
+    padding-left: 25%;
+}
+.scroll {
+  margin-top: 2%;
+  width: 100%;
+  height: 35pc;
+  margin-left: 2%;
+  overflow-y: visible;
+  overflow-x: hidden;
+  text-align: center;
+}
+}
 @media screen and (max-width: 600px) {
     .review{
         margin-top: 0%;
