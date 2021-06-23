@@ -58,12 +58,15 @@ button{
   border: none;
   background-color: #0654f3 !important;
   color: white !important;
-  font-size: 100% !important;
+  font-size: 70% !important;
   font-weight: bold;
   width: 90%;
   height: 2.5pc;
   margin-top: 1%;
   margin-bottom: 3%;
+}
+button:hover{
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px){
   .col {

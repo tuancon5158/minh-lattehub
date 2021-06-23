@@ -68,6 +68,9 @@ button{
   margin-top: 1%;
   margin-bottom: 3%;
 }
+button:hover{
+  cursor: pointer;
+}
 @media screen and (max-width: 1024px){
 .col {
   display: inline-block;
